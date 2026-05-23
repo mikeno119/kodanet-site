@@ -245,6 +245,13 @@ const founders = [
     linkedin: "https://www.linkedin.com/in/jeremy-franzen-8111111",
   },
   {
+    name: "Daniel Kim",
+    role: "Chief Financial Officer",
+    bio: "Financial strategist with deep expertise in corporate finance, capital markets, and operational scaling for technology companies.",
+    image: null,
+    linkedin: "#",
+  },
+  {
     name: "Shawn Lim",
     role: "Executive Team",
     bio: "Strategic leader driving operational excellence and business growth across technology initiatives.",
