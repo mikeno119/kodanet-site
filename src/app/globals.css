@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0a0f1e;
+  --navy-light: #111827;
+  --blue-accent: #3b82f6;
+  --blue-bright: #60a5fa;
+  --blue-glow: #2563eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--navy);
+  color: #f1f5f9;
+}
