@@ -231,7 +231,7 @@ function About() {
 /* ─── LEADERSHIP ─── */
 const founders = [
   {
-    name: "Michael Kim",
+    name: "Michael No",
     role: "Co-Founder & CEO",
     bio: "15+ years in network engineering and technology leadership. Passionate about leveraging AI and data to build scalable solutions that drive real business outcomes.",
     image: null,
@@ -244,6 +244,20 @@ const founders = [
     image: "/jeremy-franzen.jpg",
     linkedin: "https://www.linkedin.com/in/jeremy-franzen-8111111",
   },
+  {
+    name: "Shawn Lim",
+    role: "Executive Team",
+    bio: "Strategic leader driving operational excellence and business growth across technology initiatives.",
+    image: null,
+    linkedin: "#",
+  },
+  {
+    name: "Matthew No",
+    role: "Executive Team",
+    bio: "Technology professional focused on delivering innovative solutions and scaling enterprise operations.",
+    image: null,
+    linkedin: "#",
+  },
 ];
 
 function Leadership() {
@@ -252,10 +266,10 @@ function Leadership() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-blue-400 text-sm font-semibold tracking-wider uppercase mb-3">Leadership</p>
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">Meet Our Founders</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">Meet Our Team</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">Seasoned technology leaders with decades of combined experience building and scaling enterprise solutions.</p>
         </div>
-        <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {founders.map((f) => (
             <div key={f.name} className="group text-center p-8 rounded-2xl bg-[#111827] border border-white/5 hover:border-blue-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-blue-900/10">
               <div className="w-36 h-36 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-blue-600/30 to-indigo-600/30 border-2 border-blue-500/20 flex items-center justify-center">
