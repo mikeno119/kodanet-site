@@ -265,6 +265,20 @@ const founders = [
     image: null,
     linkedin: "#",
   },
+  {
+    name: "Blane Wong",
+    role: "Executive Team",
+    bio: "Results-driven executive bringing strategic vision and operational leadership to drive business growth.",
+    image: null,
+    linkedin: "#",
+  },
+  {
+    name: "Garland Huie",
+    role: "Executive Team",
+    bio: "Seasoned technology leader with expertise in enterprise strategy and cross-functional team management.",
+    image: null,
+    linkedin: "#",
+  },
 ];
 
 function Leadership() {
