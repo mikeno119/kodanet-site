@@ -267,7 +267,7 @@ const founders = [
   },
   {
     name: "Blane Wong",
-    role: "Executive Team",
+    role: "Investor",
     bio: "Results-driven executive bringing strategic vision and operational leadership to drive business growth.",
     image: null,
     linkedin: "#",
