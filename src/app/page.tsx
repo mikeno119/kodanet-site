@@ -295,7 +295,7 @@ function Leadership() {
             <div key={f.name} className="group text-center p-8 rounded-2xl bg-[#111827] border border-white/5 hover:border-blue-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-blue-900/10">
               <div className="w-36 h-36 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-blue-600/30 to-indigo-600/30 border-2 border-blue-500/20 flex items-center justify-center">
                 {f.image ? (
-                  <img src={f.image} alt={f.name} className="w-full h-full object-cover" />
+                  <img src={f.image} alt={f.name} className="w-full h-full object-cover object-center" />
                 ) : (
                   <span className="text-5xl">👤</span>
                 )}
